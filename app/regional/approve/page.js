@@ -12,7 +12,7 @@ export default function RegionalApprove() {
         e.preventDefault();
        
         try {
-            const response = await fetch('http://localhost:3000/Regional/approve', {
+            const response = await fetch('https://savepulse.onrender.com/Regional/approve', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -13,7 +13,7 @@ export default function HospitalSignUp() {
         e.preventDefault();
     
         try {
-            const response = await fetch('http://localhost:3000/regional', {
+            const response = await fetch('https://savepulse.onrender.com/regional', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

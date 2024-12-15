@@ -14,7 +14,7 @@ export default function SatelitteSignUp() {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:3000/satelliteSignup', {
+            const response = await fetch('https://savepulse.onrender.com/satelliteSignup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

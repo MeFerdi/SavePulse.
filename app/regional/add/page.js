@@ -12,7 +12,7 @@ export default function RegionalAddBlood() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:3000/regional/add', {
+            const response = await fetch('https://savepulse.onrender.com/regional/add', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

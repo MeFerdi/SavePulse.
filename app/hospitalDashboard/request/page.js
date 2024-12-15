@@ -23,7 +23,7 @@ export default function BloodRequestForms() {
     const handleEmergencySubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:3000/hospitalRequest', {
+            const response = await fetch('https://savepulse.onrender.com/hospitalRequest', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -49,7 +49,7 @@ export default function BloodRequestForms() {
     const handleHospitalRequestSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:3000/hospitalDashboard/request', {
+            const response = await fetch('https://savepulse.onrender.com/hospitalDashboard/request', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
